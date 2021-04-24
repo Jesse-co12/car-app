@@ -38,6 +38,7 @@ function my_keydown(e){
         right(); 
         console.log("right");
     }
+}
     function up(){
         if(car_y >=0){
             car_y = car_y - 10;
@@ -45,7 +46,7 @@ function my_keydown(e){
             uploadbackground();
             uploadrover();
      }
-    
+    }
         function down(){
             if(car_y <=500){
                 car_y = car_y + 10;
@@ -53,7 +54,7 @@ function my_keydown(e){
                 uploadbackground();
                 uploadcar();
             }
-        
+        }
             function left(){
                 if(car_x >=0){
                     car_x = car_x - 10;
@@ -61,7 +62,7 @@ function my_keydown(e){
                     uploadbackground();
                     uploadcar();
                 }
-            
+            }
                 function right(){
                     if(car_x <=700){
                         car_x = car_x + 10;
@@ -69,8 +70,8 @@ function my_keydown(e){
                         uploadbackground();
                         uploadcar();
             }
-        
-        
+                }
+                
     
 
      
